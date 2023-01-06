@@ -5,7 +5,7 @@
 
 /* headerr csss......... */
 header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     /* width: 1340px; */
     height: 800px;
     display: flex;
@@ -109,7 +109,7 @@ main h1 {
 /* gradient-item........... */
 
 .gradient-item {
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-image: url(./images/gradient1.png), url(./images/watch.png);
     width: 1141px;
     height: 235px;
 }
