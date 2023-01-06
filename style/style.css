@@ -35,7 +35,7 @@ header {
     margin-top: 25px;
 }
 
-.header-text button {
+.text-button {
     width: 160px;
     height: 64px;
     font-weight: 600;
@@ -48,8 +48,7 @@ header {
 /* main section.......... */
 
 main {
-    background-color: darkgray;
-    height: 1122px;
+    height: 1322px;
     padding: 100px;
 
 }
@@ -88,11 +87,12 @@ main h1 {
 /* plans itemm.......... */
 
 .plans-item {
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     width: 1141px;
     height: 205px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 150px;
 
 }
 
@@ -104,11 +104,35 @@ main h1 {
     color: #737272;
 }
 
+/* gradient-item........... */
+
+.gradient-item {
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    width: 1141px;
+    height: 205px;
+}
+
+.gradient-text {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.gradient-button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin-left: 30px;
+
+}
+
 /* ......footer......... */
 
 footer {
     background-color: black;
-    width: 1600px;
     height: 300px;
     padding: 100px;
     display: flex;
