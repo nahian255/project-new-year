@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* headerr csss......... */
 header {
     background-image: url(/images/banner/banner3.png);
     /* width: 1340px; */
@@ -42,13 +43,14 @@ header {
     font-size: 20px;
     color: #005FAC;
     margin-top: 35px;
+    margin-left: 340px;
 }
 
 
 /* main section.......... */
 
 main {
-    height: 1322px;
+    height: 1922px;
     padding: 100px;
 
 }
@@ -56,14 +58,15 @@ main {
 main h1 {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .list-item {
-    /* background-color: aqua; */
     padding: 100px;
     height: 500px;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(239, 243, 237);
 }
 
 .list-item div {
@@ -87,9 +90,8 @@ main h1 {
 /* plans itemm.......... */
 
 .plans-item {
-    /* background-color: darksalmon; */
     width: 1141px;
-    height: 205px;
+    height: 105px;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 150px;
@@ -109,14 +111,15 @@ main h1 {
 .gradient-item {
     background-image: url(/images/gradient1.png), url(/images/watch.png);
     width: 1141px;
-    height: 205px;
+    height: 235px;
 }
 
 .gradient-text {
     text-align: left;
     margin-top: 80px;
     margin-left: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    color: #FFFFFF;
 }
 
 .gradient-button {
@@ -127,6 +130,20 @@ main h1 {
     color: #005FAC;
     margin-left: 30px;
 
+}
+
+/* new section */
+
+.new-section {
+    padding: 100px;
+    height: 260px;
+    background-color: burlywood;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.new-section p {
+    margin-bottom: 50px;
 }
 
 /* ......footer......... */
