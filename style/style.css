@@ -15,6 +15,7 @@ header {
 .header-text {
 
     width: 50%;
+
 }
 
 .header-text h1 {
@@ -27,6 +28,54 @@ header {
 
 .header-text p {
     font-size: 16px;
+    text-align: right;
     width: 494px;
     height: 78px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.header-text button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin-top: 35px;
+}
+
+
+/* main section.......... */
+
+main {
+    /* background-color: darkgray; */
+    height: 1122px;
+    padding: 100px;
+
+}
+
+.list-item {
+    /* background-color: aqua; */
+    padding: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item div {
+    width: 50%;
+}
+
+.list-item div h1 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    margin-top: 70px;
+}
+
+.list-item div h4 {
+    width: 416px;
+    height: 104px;
+    margin-top: 30px;
 }
